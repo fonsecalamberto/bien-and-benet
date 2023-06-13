@@ -10,7 +10,7 @@ function index() {
         <div className="flex container justify-between items-center">
           {/* logo */}
           <div className="flex">
-            <h1>Bien and Benet</h1>
+            <h1 className="font-wild-magnolia text-9xl text-yellow-400">bien and benet</h1>
           </div>
           {/* navigationmenu */}
           <nav className="hidden lg:flex  gap-x-8">
