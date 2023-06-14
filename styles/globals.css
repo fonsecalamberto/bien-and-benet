@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Wild Magnolia';
-    src: url('/fonts/WildMagnolia.otf') format('opentype');
+    src: url('/fonts/WildMagnolia.otf?v=1') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
