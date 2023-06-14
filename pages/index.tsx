@@ -6,23 +6,35 @@ function index() {
   return (
     <>
       {/* Header */}
-      <header className="flex sticky justify-center w-full h-24 border-b bg-white px-12 top-0 z-40">
+      <header className="flex sticky justify-center w-full h-24 border-b bg-white lg:px-12 px-3 top-0 z-40 ">
         <div className="flex container justify-between items-center">
           {/* logo */}
-          <div className="flex">
-            <h1 className="font-wild-magnolia text-9xl text-yellow-400">bien and benet</h1>
+          <div className="flex ">
+            <h1 className="font-wild-magnolia lg:text-9xl text-7xl text-yellow-400">
+              bien and benet
+            </h1>
           </div>
           {/* navigationmenu */}
           <nav className="hidden lg:flex  gap-x-8">
-            <NavLink href="#" text="Home" />
+            <NavLink href="/" text="Home" />
             <NavLink href="/#invitation" text="Invitation" />
           </nav>
         </div>
       </header>
       {/* Body */}
 
+      <div className="flex flex-col items-center justify-center w-full py-8 ">
+        <p className="lg:text-3xl text-xl font-bold text-center">
+          Share our enchanting love story 
+        </p>
+
+        <p className="lg:text-sm text-xs text-neutral-500 px-[30%] text-center">
+        on February 4, 2022
+        </p>
+      </div>
+
       <div className="flex flex-col w-full h-full justify-center items-center">
-        <div className="relative container min-h-screen bg-slate-600">
+        <div className="relative container min-h-screen">
           <Image
             src="/images/2.jpg"
             alt="alt"
