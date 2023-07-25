@@ -49,6 +49,9 @@ function index() {
             }}
           />
         </div>
+        <div>
+          Test
+        </div>
 
         <div className="flex flex-col container items-center justify-center w-full py-8 space-y-4">
           <p className="lg:text-3xl text-xl font-bold text-center text-[vw]">
